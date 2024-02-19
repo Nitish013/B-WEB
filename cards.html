@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid style">
+          <a class="btn" data-bs-toggle="offcanvas" data-bs-target="#view"><img src="img/prism.png" width="45" height="45" class="mx-3"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link size fw-semibold text-center mt-3 m-2" href="index.html">Home</a>
+              <a class="nav-link  fw-semibold size text-center mt-3 m-2" href="feature.html">Features</a>
+              <a class="nav-link  fw-semibold size text-center mt-3 m-2" href="About us.html">About us</a>
+              <a class="nav-link fw-semibold size text-center mt-3 m-2" href="price.html">Price</a>
+              <a class="nav-link fw-semibold size text-center mt-3 m-2" href="cards.html">Extension</a>
+              <button type="button" class="btn btn-outline-dark m-3 border-2 px-4" data-bs-toggle="modal" data-bs-target="#login">LOGIN</button>
+              <div class="modal" id="login">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">LOGIN</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                    </div>
+                    <div class="modal-body">
+                        <label class="form-label">Email address</label>
+                        <input type="email" id="username" class="form-control">
+                        <label class="form-label">Password</label>
+                        <input type="password" id="password" class="form-control"> 
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" onclick="loginpage()">
+                        ENTER
+                      </button>
+                    </div> 
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="https://www.instagram.com/"><img src="img/instagram.png" class="mx-2" height="35" width="35"></a>
+          <a href="https://twitter.com/?lang=en"><img src="img/twitter.png"  class="mx-2" height="35" width="35"></a>
+          <a href="https://github.com/"> <img src="img/github.png"  class="mx-2" height="35" width="35"></a>
+        </div>
+    </nav>
+    <div class="container extension-col">
+        <div class="row mt-5 pt-5 text-center">
+            <div class="col-sm-2 pb-5 " >
+                <img src="img/windows.png" class="img-fluid" height="60" width="60">
+            </div>
+            <div class="col-sm-3 text-start ">
+                <h5 class="extension-text"> Wizard for PS4 Max</h5>
+                <p class="text-secondary">version 1.1058345</p>
+            </div>
+            <div class="col-sm-2  text-start ">
+                <p class="text-secondary">Repository Version<br>
+                version 2.75  
+                </p>
+            </div>
+            <div class="col-sm-1 text-start ">
+                <p class="text-secondary">File Size<br>
+                3025MB 
+                </p>
+            </div>
+            <div class="col-sm-1 text-start  ">
+                <p class="text-secondary">Date<br>
+                23/04/2023
+                </p>
+            </div>
+            <div class="col-sm-3 text-center ">
+                <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light ">Download</Button>
+            </div>
+        </div>
+    </div>
+    <div class="container extension-col">
+        <div class="row justify-content-center"> 
+            <div class="col-sm-2"></div>
+            <div class=" col-sm-10 text-secondary ">
+                <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+        </div>
+    </div>
+    <div class="container extension-col">
+      <div class="row mt-5 pt-5 text-center">
+          <div class="col-sm-2 pb-5">
+              <img src="img/windows.png" class="img-fluid" height="60" width="60">
+          </div>
+          <div class="col-sm-3 text-start ">
+              <h5 class="extension-text"> Wizard for PS3 Max</h5>
+              <p class="text-secondary">version 1.10623478</p>
+          </div>
+          <div class="col-sm-2  text-start ">
+              <p class="text-secondary">Repository Version<br>
+              version 2.1.1  
+              </p>
+          </div>
+          <div class="col-sm-1 text-start ">
+              <p class="text-secondary">File Size<br>
+              3124MB 
+              </p>
+          </div>
+          <div class="col-sm-1 text-start  ">
+              <p class="text-secondary">Date<br>
+              02/05/2023
+              </p>
+          </div>
+          <div class="col-sm-3 text-center ">
+              <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+          </div>
+      </div>
+  </div>
+  <div class="container extension-col">
+      <div class="row justify-content-center"> 
+          <div class="col-sm-2"></div>
+          <div class=" col-sm-10 text-secondary ">
+              <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+      </div>
+  </div>
+  <div class="container extension-col">
+    <div class="row mt-5 pt-5 text-center">
+        <div class="col-sm-2 pb-5">
+            <img src="img/windows.png" class="img-fluid" height="60" width="60">
+        </div>
+        <div class="col-sm-3 text-start ">
+            <h5 class="extension-text"> Wizard for PS2 Max</h5>
+            <p class="text-secondary">version 1.14562</p>
+        </div>
+        <div class="col-sm-2  text-start ">
+            <p class="text-secondary">Repository Version<br>
+            version 2.0.4  
+            </p>
+        </div>
+        <div class="col-sm-1 text-start ">
+            <p class="text-secondary">File Size<br>
+            3025MB 
+            </p>
+        </div>
+        <div class="col-sm-1 text-start  ">
+            <p class="text-secondary">Date<br>
+            12/01/2022
+            </p>
+        </div>
+        <div class="col-sm-3 text-center ">
+            <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+        </div>
+    </div>
+</div>
+<div class="container extension-col">
+    <div class="row justify-content-center"> 
+        <div class="col-sm-2"></div>
+        <div class=" col-sm-10 text-secondary ">
+            <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+    </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/windows.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text"> Wizard for PS Max</h5>
+          <p class="text-secondary">version 1.10</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 2.0.1 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          325MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          22/08/2022
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/apple-logo.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text">Wizard for M1 Max</h5>
+          <p class="text-secondary">version 1.1078452545</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 1.45  
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          3111MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          20/04/2023
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/apple-logo.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text">Wizard for M2 Max</h5>
+          <p class="text-secondary">version 1.42511255</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 1.25  
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          3110MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          07/05/2022
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/apple-logo.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text">Wizard for M3 Max</h5>
+          <p class="text-secondary">version 1.88845451</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 2.01  
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          4001MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          03/08/2021
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/android.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text">Wizard for A1 Max</h5>
+          <p class="text-secondary">version 1.54451</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 1.01  
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          2014MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          03/08/2021
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/android.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text">Wizard for A2 Max</h5>
+          <p class="text-secondary">version 1.4545451</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 1.00  
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          4001MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          03/07/2021
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row mt-5 pt-5 text-center">
+      <div class="col-sm-2 pb-5">
+          <img src="img/android.png" class="img-fluid" height="60" width="60">
+      </div>
+      <div class="col-sm-3 text-start ">
+          <h5 class="extension-text">Wizard for A3 Max</h5>
+          <p class="text-secondary">version 1.2045451</p>
+      </div>
+      <div class="col-sm-2  text-start ">
+          <p class="text-secondary">Repository Version<br>
+          version 0.12  
+          </p>
+      </div>
+      <div class="col-sm-1 text-start ">
+          <p class="text-secondary">File Size<br>
+          448MB 
+          </p>
+      </div>
+      <div class="col-sm-1 text-start  ">
+          <p class="text-secondary">Date<br>
+          12/07/2023
+          </p>
+      </div>
+      <div class="col-sm-3 text-center ">
+          <Button class=" btn btn-outline-dark border-0  px-5 py-2  extension-button text-light">Download</Button>
+      </div>
+  </div>
+</div>
+<div class="container extension-col">
+  <div class="row justify-content-center"> 
+      <div class="col-sm-2"></div>
+      <div class=" col-sm-10 text-secondary ">
+          <hr>SHA256:3ee668ff457812ee12feef12124514545fffe12535 ef5212ee888241514ee812 ee12feef12124514fe121<hr></div>
+  </div>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row end p-5 text-secondary    justify-content-center">© Copyright 1997 - 2024, INT. All rights reserved.
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" id="view">
+  <div class="offcanvas-header">
+  
+    <h3 class="fw-semibold mt-2 ms-2"><img src="img/rectangle.png" height="40" width="46">&nbsp;&nbsp;&nbsp;UI Prism</h3>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+     <ul class="list-group ">
+       <li class="list-group-item fw-medium "><img src="img/download.png" height="30" width="30">&nbsp;&nbsp; Getting Started</li>
+       <li class="list-group-item fw-medium"><img src="img/database.png" height="30" width="30">&nbsp;&nbsp; Hosting</li>
+       <li class="list-group-item fw-medium"><img src="img/plugin.png" height="30" width="30">&nbsp;&nbsp; Integration<span class="badge badge-secondary">New</span></li>
+       <li class="list-group-item fw-medium "><img src="img/layout.png" height="30" width="30">&nbsp;&nbsp; Layout</li>
+       <li class="list-group-item fw-medium "><img src="img/copy-writing.png" height="30" width="30">&nbsp;&nbsp; Content & Styles</li>
+       <li class="list-group-item fw-medium "><img src="img/navigate.png" height="30" width="30">&nbsp;&nbsp; Navigation</li>
+       <li class="list-group-item fw-medium"><img src="img/components.png" height="30" width="30">&nbsp;&nbsp; Components </li>
+       <li class="list-group-item fw-medium"><img src="img/form.png" height="30" width="30">&nbsp;&nbsp; Forms </li>
+       <li class="list-group-item fw-medium"><img src="img/barell.png" height="30" width="30">&nbsp;&nbsp; Data </li>
+       <li class="list-group-item fw-medium"><img src="img/wrench.png" height="30" width="30">&nbsp;&nbsp; Utilities </li>
+       <li class="list-group-item fw-medium"><img src="img/coding.png" height="30" width="30">&nbsp;&nbsp; Methods </li>
+     </ul>
+  </div> 
+</div>
+</body>
+</html> 

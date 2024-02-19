@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid style">
+          <a class="btn" data-bs-toggle="offcanvas" data-bs-target="#view"><img src="img/prism.png" width="45" height="45" class="mx-3"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link size fw-semibold text-center mt-3 m-2" href="index.html">Home</a>
+              <a class="nav-link  fw-semibold size text-center mt-3 m-2" href="feature.html">Features</a>
+              <a class="nav-link  fw-semibold size text-center mt-3 m-2" href="About us.html">About us</a>
+              <a class="nav-link fw-semibold size text-center mt-3 m-2" href="price.html">Price</a>
+              <a class="nav-link fw-semibold size text-center mt-3 m-2" href="cards.html">Extension</a>
+              <button type="button" class="btn btn-outline-dark m-3 border-2 px-4" data-bs-toggle="modal" data-bs-target="#login">LOGIN</button>
+              <div class="modal" id="login">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title">LOGIN</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                    </div>
+                    <div class="modal-body">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="username">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password"> 
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" onclick="loginpage()">
+                        ENTER
+                      </button>
+                    </div> 
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="https://www.instagram.com/"><img src="img/instagram.png" class="mx-2" height="35" width="35"></a>
+          <a href="https://twitter.com/?lang=en"><img src="img/twitter.png"  class="mx-2" height="35" width="35"></a>
+          <a href="https://github.com/"> <img src="img/github.png"  class="mx-2" height="35" width="35"></a>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 my-5">
+                <h2 class="fw-bold display-6 text-center">Your Right To Know</h2>
+            </div>  
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <div class="accordion" id="FAQ">
+                    <div class="accordion-item">
+                        <div class="accordion-header ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                What subtitle and voice-over languages does Genshin Impact support upon release? 
+                            </button>
+                        </div>
+                        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Genshin Impact supports subtitles in English, Japanese, Korean, Traditional Chinese, Simplified Chinese, German, French, Russian, Spanish, Portugese, Thai, Indonesian, and Vietnamese. Currently available voice-overs include English, Japanese, Korean, and Chinese. 
+                            </div>
+                        </div>
+                    </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Can I download the game in advance? If so, how can I do it? 
+                            </button>
+                        </div>
+                        <div id="faq2" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Travelers across different platforms can download the game in advance.<br><br>
+                        
+                                Pre-load starting time: September 26, 2020 10:00 (GMT+8), 02:00 (UTC); September 25, 2020 19:00 (PDT)
+                                When the pre-load is available, Travelers can download the PC version of Genshin Impact from its official website.<br><br>
+                                Genshin Impact's Official Website: https://genshin.mihoyo.com/ 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                What accounts can I use to log into Genshin Impact?
+                            </button>
+                        </div>
+                        <div id="faq3" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li> iOS (including tablets) : miHoYo Account/Apple ID/Game Center/Facebook/Twitter</li>
+                                    <li>Android (including tablets) : miHoYo Account/Apple ID/Game Center/Facebook/Twitter</li>
+                                    <li>PlayStation : PSN Account
+                                    </li>
+                                </ul>                   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                Can I change my server and transfer my character from one server to another?
+                            </button>
+                        </div>
+                        <div id="faq4" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Travelers playing on PC, iOS and Android can change servers. However, it will not be possible to transfer characters.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                Is account data shared across different platforms?
+                            </button>
+                        </div>
+                        <div id="faq5" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Account data is shared across PC, iOS and Android, so Travelers can log in from different platforms and continue their adventure.<br><br>
+                                Due to PSN Account's restrictions, Travelers cannot use their PSN Accounts to log into the game on different platforms.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                How do I grow my channel?
+                            </button>
+                        </div>
+                        <div id="faq6" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Growing your channel is all about creating videos viewers want to watch and accurately presenting them to the audience. When doing so, here's a few tips to keep in mind.                   
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                How do I promote my videos?
+                            </button>
+                        </div>
+                        <div id="faq7" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Trending is all about helping viewers see what's happening on YouTube, and in the world. Trending tries to surface videos that a wide range of viewers would find interesting. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                                How do I make money on YouTube?
+                            </button>
+                        </div>
+                        <div id="faq8" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                Once accepted, you'll begin to gain access to a variety of monetisation products, including a share of the Ad and YouTube Premium Revenue generated by your videos; Channel memberships; merch shelf; Super Chat and Super Stickers; and BrandConnect. Each feature has its own performance and eligibility requirements.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                                How do I fix a demonetised channel?                            </button>
+                        </div>
+                        <div id="faq9" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                If you notice that your YouTube account or channel has been hacked or compromised, you'll first want to check whether or not you can sign in to your account.<br><br>
+
+                                If you can't sign in to your account, you'll need to recover your Google Account by answering some security questions to verify it's yours. Then, you'll be prompted to reset your password.                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion mb-5 ">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="FAQ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10">
+                                How do I fix a copyright strike?                            </button>
+                        </div>
+                        <div id="faq10" class="accordion-collapse collapse " data-bs-parent="#FAQ">
+                            <div class="accordion-body">
+                                A copyright strike means that a copyright owner submitted a verified, legal takedown request on a video that uses their content.                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+            </div>
+        </div>
+        <div class="row end p-5 text-secondary    justify-content-center">© Copyright 1997 - 2024, INT. All rights reserved.
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" id="view">
+        <div class="offcanvas-header">
+        
+            <h3 class="fw-semibold mt-2 ms-2"><img src="img/rectangle.png" height="40" width="46">&nbsp;&nbsp;&nbsp;UI Prism</h3>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+           <ul class="list-group ">
+             <li class="list-group-item fw-medium "><img src="img/download.png" height="30" width="30">&nbsp;&nbsp; Getting Started</li>
+             <li class="list-group-item fw-medium"><img src="img/database.png" height="30" width="30">&nbsp;&nbsp; Hosting</li>
+             <li class="list-group-item fw-medium"><img src="img/plugin.png" height="30" width="30">&nbsp;&nbsp; Integration<span class="badge badge-secondary">New</span></li>
+             <li class="list-group-item fw-medium "><img src="img/layout.png" height="30" width="30">&nbsp;&nbsp; Layout</li>
+             <li class="list-group-item fw-medium "><img src="img/copy-writing.png" height="30" width="30">&nbsp;&nbsp; Content & Styles</li>
+             <li class="list-group-item fw-medium "><img src="img/navigate.png" height="30" width="30">&nbsp;&nbsp; Navigation</li>
+             <li class="list-group-item fw-medium"><img src="img/components.png" height="30" width="30">&nbsp;&nbsp; Components </li>
+             <li class="list-group-item fw-medium"><img src="img/form.png" height="30" width="30">&nbsp;&nbsp; Forms </li>
+             <li class="list-group-item fw-medium"><img src="img/barell.png" height="30" width="30">&nbsp;&nbsp; Data </li>
+             <li class="list-group-item fw-medium"><img src="img/wrench.png" height="30" width="30">&nbsp;&nbsp; Utilities </li>
+             <li class="list-group-item fw-medium"><img src="img/coding.png" height="30" width="30">&nbsp;&nbsp; Methods </li>
+           </ul>
+        </div> 
+     </div>
+</body>     
+</html>
